@@ -1,0 +1,85 @@
+body{
+    background-color: #e8d9b7;
+}
+
+.image{
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 300px;
+}
+
+.image--visible{
+    top: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+h1{
+    font-family: "Barlow Condensed",Helvetica,Arial,sans-serif;
+    font-size: 5rem;
+    line-height: 6 rem;
+    letter-spacing: 4.95px;
+    color: #004d90;
+    text-transform: uppercase;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+ul{
+    font-family: "Barlow Condensed",Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    line-height: 7 rem;
+    letter-spacing: 2px;
+    color: #0c1e45;
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 300px;
+}
+
+p{
+    font-family: "Barlow Condensed",Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    line-height: 7rem;
+    letter-spacing: 2px;
+    color: #004d90;
+    text-align: center;
+    margin-top: none;
+    margin-bottom: 0%;
+}
+
+.button {
+    margin-left: 100px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px ;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }

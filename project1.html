@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <link rel="stylesheet" href="element.css">    <!-- for the things that are visible on webpage all the time -->
+    <link rel="stylesheet" href="element2.css">   <!-- for the notification that will pop-up -->
+</head>
+<body>
+
+    <h1>NOTIFICATION SYSTEM</h1>
+    
+    <ul>
+        <li>A notification will pop in every 10 seconds.</li>
+        <li>At every 10 seconds it will disappear.</li>
+        <li>The notification will contain a random dad joke.</li>
+        <li>There is a sound with every notification.</li>
+    </ul>
+
+    <audio id="mySound" src="Messenger - Notification Tone.mp3"></audio> <!-- notification sound -->
+    
+    <p>Press the button below for changing the sound of notification.</p>
+    
+    <button class="button" onclick="show()">Press Here</button> 
+    
+    <img src="GiddyReliableBichonfrise-max-1mb.gif" class="image" id="imageid">
+    
+    <div class="toast" id="msgDiv"></div>   <!-- for pop-up notification -->
+    
+    <script src="pro1.js"></script>    <!-- javascript file -->
+</body>
+</html>
